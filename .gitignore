@@ -1,0 +1,6 @@
+/*
+!src/
+/src/*
+!src/module3
+!README.md
+!.gitignore
