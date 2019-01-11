@@ -52,6 +52,7 @@ public class EarthquakeCityMap extends PApplet {
 	private String earthquakesURL =
 			"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom";
 
+//	"quiz1.atom"
 	PFont font;
 	
 	public void setup() {
@@ -66,6 +67,7 @@ public class EarthquakeCityMap extends PApplet {
 			map = new UnfoldingMap(this, 200, 50, 700, 500, new Microsoft.RoadProvider ());
 			// IF YOU WANT TO TEST WITH A LOCAL FILE, uncomment the next line
 			//earthquakesURL = "2.5_week.atom";
+//			earthquakesURL = "quiz1.atom";
 //		}
 		
 	    map.zoomToLevel(1);

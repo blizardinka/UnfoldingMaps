@@ -2,8 +2,6 @@
 !src/
 /src/*
 !src/module3
-!data/
-/data/*
-!data/countries.geo.json
+!src/module4
 !README.md
 !.gitignore
